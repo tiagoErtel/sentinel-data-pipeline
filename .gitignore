@@ -1,0 +1,8 @@
+*.class
+
+venv/
+__pycache__/
+*.pyc
+
+invoices.csv
+cleaned_invoices.csv

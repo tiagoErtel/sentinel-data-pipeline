@@ -16,7 +16,7 @@ This project was built to showcase advanced concepts in **Data Integrity**, **ET
 
 The pipeline is divided into three decoupled layers to ensure scalability and ease of maintenance:
 
-### 1. Data Generation Layer (Java / Spring Boot)
+### 1. Data Generation Layer (Java)
 
 - **Role:** Acts as the Transactional System (OLTP).
 - **Function:** Generates thousands of mock invoice records simulating daily retail operations.
@@ -47,7 +47,6 @@ The pipeline is divided into three decoupled layers to ensure scalability and ea
 ## 🛠️ Tech Stack
 
 - **Languages:** Java 21, Python 3.11, SQL
-- **Frameworks:** Spring Boot (Producer)
 - **Data Tools:** Pandas (Transformation), NumPy
 - **Database:** PostgreSQL 16
 - **DevOps:** Docker, Docker Compose, Bash

@@ -69,11 +69,7 @@ The pipeline is divided into three decoupled layers to ensure scalability and ea
    ```
 2. **Environment Setup:** Ensure you have Docker and Python installed.
 3. **Launch Infrastructure:**
-   ````bash
+   ```bash
    chmod +x run_pipeline.sh
-   ./run_pipeline.sh```bash
-   ````
-
-```
-
-```
+   ./run_pipeline.sh
+   ```

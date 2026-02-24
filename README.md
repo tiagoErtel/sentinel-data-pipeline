@@ -47,7 +47,7 @@ The pipeline is divided into three decoupled layers to ensure scalability and ea
 ## 🛠️ Tech Stack
 
 - **Languages:** Java 21, Python 3.11, SQL
-- **Data Tools:** Pandas (Transformation), NumPy
+- **Data Tools:** Pandas (Transformation)
 - **Database:** PostgreSQL 16
 - **DevOps:** Docker, Docker Compose, Bash
 
@@ -62,5 +62,5 @@ Once the core modules are pushed, you will be able to run:
 git clone [https://github.com/tiagoertel/sentinel-data-pipeline.git](https://github.com/tiagoertel/sentinel-data-pipeline.git)
 
 # Spin up the Database and Ingestion services
-docker-compose up -d
+./run_pipeline.sh
 ```

@@ -12,6 +12,13 @@ This project was built to showcase advanced concepts in **Data Integrity**, **ET
 
 ---
 
+## 📊 Analytics Dashboard
+
+![Executive Dashboard Preview](dashboard_preview.png)
+_Real-time analytics generated via Metabase showing revenue trends and store performance._
+
+---
+
 ## 🏗️ System Architecture
 
 The pipeline is divided into three decoupled layers to ensure scalability and ease of maintenance:
@@ -53,14 +60,20 @@ The pipeline is divided into three decoupled layers to ensure scalability and ea
 
 ---
 
-## 🚦 Getting Started (Work in Progress)
+## 🚦 Installation & Execution
 
-Once the core modules are pushed, you will be able to run:
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/tiagoertel/sentinel-data-pipeline.git](https://github.com/tiagoertel/sentinel-data-pipeline.git)
+   cd sentinel-data-pipeline
+   ```
+2. **Environment Setup:** Ensure you have Docker and Python installed.
+3. **Launch Infrastructure:**
+   ````bash
+   chmod +x run_pipeline.sh
+   ./run_pipeline.sh```bash
+   ````
 
-```bash
-# Clone the repository
-git clone [https://github.com/tiagoertel/sentinel-data-pipeline.git](https://github.com/tiagoertel/sentinel-data-pipeline.git)
+```
 
-# Spin up the Database and Ingestion services
-./run_pipeline.sh
 ```
